@@ -14,3 +14,17 @@ To access your flask application open new tab in and paste the url:
 ```
 https://{your_url}.ineuron.app:5000/
 ```
+
+##End to end ML Project
+
+## create a environment
+```
+conda create -p venv python==3.8
+
+conda activate venv/
+```
+## install all necessary library
+
+```
+pip install -r requirements.txt
+```
