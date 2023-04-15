@@ -55,4 +55,3 @@ class ModelTrainer:
             logging.info("Exception occured at model training")
             raise CustomException(e, sys)
 
-#run
