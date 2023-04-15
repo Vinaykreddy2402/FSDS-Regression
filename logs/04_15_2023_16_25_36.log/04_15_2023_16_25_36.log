@@ -1,0 +1,11 @@
+[ 2023-04-15 16:25:37,563 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-15 16:25:37,564 ] 224 werkzeug - INFO -  * Debugger PIN: 990-829-897
+[ 2023-04-15 16:27:57,002 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:27:57] "GET /predict HTTP/1.1" 200 -
+[ 2023-04-15 16:28:14,190 ] 64 root - INFO - Converting into data frame
+[ 2023-04-15 16:28:14,270 ] 26 root - INFO - Exception occured in prediction
+[ 2023-04-15 16:28:14,279 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:28:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-04-15 16:28:14,372 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:28:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-04-15 16:28:14,375 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:28:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-04-15 16:28:14,462 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:28:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-15 16:28:14,506 ] 224 werkzeug - INFO - 172.18.0.2 - - [15/Apr/2023 16:28:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-15 16:30:36,876 ] 224 werkzeug - INFO -  * Detected change in '/config/workspace/src/pipeline/prediction_pipeline.py', reloading
