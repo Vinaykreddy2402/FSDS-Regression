@@ -27,7 +27,15 @@ class PredictPipeline:
             raise CustomException(e, sys)
 
 class CustomData:
-    def __init__(self,carat:float,depth:float,table:float,x:float,y:float,z:float,cut:str,color:str,clarity:str):
+    def __init__(self,carat:float,
+    depth:float,
+    table:float,
+    x:float,
+    y:float,
+    z:float,
+    cut:str,
+    color:str,
+    clarity:str):
         self.carat = carat
         self.depth = depth
         self.table = table
@@ -54,8 +62,7 @@ class CustomData:
                 }
             df1 = pd.DataFrame(custom_data_input_dict)
             logging.info("Converting into data frame")
-
-
+            return df1
         except Exception as e:
             logging.info("reading user data dataframe error occured")
             CustomException(e, sys)
